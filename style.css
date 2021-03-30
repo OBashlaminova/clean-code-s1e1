@@ -13,11 +13,11 @@ body {
   text-align: right;
 }
 
-.eisenhower-matrix_img {
+.eisenhower-matrix__img {
   width: 100%;
 }
 
-.eisenhower-matrix_more-inf {
+.eisenhower-matrix__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -29,7 +29,7 @@ body {
 
 }
 
-.main-page-elem {
+.main-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -41,7 +41,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-task {
   display: flex;
 }
 
@@ -111,7 +111,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 
-input#new-task {
+.add-task__new-task {
   width: 318px;
 }
 
