@@ -29,7 +29,7 @@ body {
 
 }
 
-.main-page-element {
+.main-page-elem {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -165,7 +165,7 @@ button.delete img:hover {
 
 /* Completed */
 
-ul#completed-tasks label {
+ul#complete-tasks label {
   text-decoration: line-through;
   color: #888;
 }
