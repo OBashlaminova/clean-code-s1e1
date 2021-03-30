@@ -8,24 +8,26 @@
 </head>
 
 <body>
-  <div class="eisenhower-matrix">
+  <figure class="eisenhower-matrix"> <!-- block -->
     <img src="./eisenhower-matrix.jpg" alt="Eisenhower matrix as a priority setting tool">
-    <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
+    <figcaption>
+      <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    </figcaption>
+  </figure>
 
-  <div class="main-page-elem">
-    <p id="top-section-for-adding-element-to-list">
+  <main class="main-page-elem"> <!-- block -->
+    <section id="top-section-for-adding-element-to-list"> <!-- block -->
       <label for="new-task">Add Item</label>
-    <div class="task-row-wrapper">
-      <input id="new-task" class="task" type="text">
-      <button>Add</button>
-    </div>
-    </p>
+      <div class="task-row-wrapper"> <!-- block -->
+        <input id="new-task" class="task" type="text">
+        <button>Add</button>
+      </div>
+    </section>
 
     <h3>Todo</h3>
     <ul id="incomplete-tasks">
       <li>
-        <input type="checkbox">
+        <input type="checkbox"> 
         <label class="task">Pay Bills</label>
         <input type="text" class="task">
         <button class="edit">Edit</button>
@@ -56,7 +58,7 @@
         </button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 
